@@ -60,3 +60,7 @@ void list_stack(struct Stack* stack) {
         );
     }
 }
+
+void iterate_over_stack(struct Stack* stack) {
+    for(int8_t i = stack->top; i > -1; i--) printf("\n  Value at %i: %i", i, stack->data[i]);
+}

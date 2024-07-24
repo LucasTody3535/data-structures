@@ -16,3 +16,6 @@ void clear_stack(struct Stack* stack);
 
 int8_t remove_from_stack(struct Stack* stack);
 void add_to_stack(struct Stack* stack, int8_t value);
+
+// Only prints the values
+void iterate_over_stack(struct Stack* stack);
