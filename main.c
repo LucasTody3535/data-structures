@@ -18,7 +18,8 @@ void staticStackExample() {
     printf("  Is full(0 = No, 1 = Yes): %i\n", is_stack_full(stack));
     printf("  Is empty(0 = No, 1 = Yes): %i\n", is_stack_empty(stack));
     printf("  Listing...\n");
-    list_stack(stack);
+    //list_stack(stack);
+    iterate_over_stack(stack);
 
     //add_to_stack(stack, 5); // Causes overflow
 
@@ -29,7 +30,8 @@ void staticStackExample() {
     printf("  Is full(0 = No, 1 = Yes): %i\n", is_stack_full(stack));
     printf("  Is empty(0 = No, 1 = Yes): %i\n", is_stack_empty(stack));
     printf("  Listing...\n");
-    list_stack(stack);
+    //list_stack(stack);
+    iterate_over_stack(stack);
 
     //add_to_stack(stack, 0x00); // Usage of invalid data
 
@@ -40,7 +42,8 @@ void staticStackExample() {
     printf("  Is full(0 = No, 1 = Yes): %i\n", is_stack_full(stack));
     printf("  Is empty(0 = No, 1 = Yes): %i\n", is_stack_empty(stack));
     printf("  Listing...\n");
-    list_stack(stack);
+    //list_stack(stack);
+    iterate_over_stack(stack);
     printf("\n");
 
     //remove_from_stack(stack); // Causes underflow
