@@ -1,0 +1,1 @@
+gcc main.c src/stacks/stack/impl.c src/stacks/static-stack/impl.c -o program && clear && ./program
